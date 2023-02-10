@@ -3,6 +3,8 @@
 // This will use useContext when we have more set up in our app
 import { useState } from 'react';
 import './messages.css';
+import { GlobalContext } from 'app/(context)';
+import { useContext } from 'react';
 import { getOrCreateChat } from 'react-chat-engine';
 import dynamic from 'next/dynamic';
 
@@ -12,8 +14,10 @@ const ChatEngine = dynamic(() =>
 );
 
 export default function Messages() {
-  const [username, setUsername] = useState('');
-
+  const [otherusername, othersetUsername] = useState('');
+  const chatEngineUser = useContext(GlobalContext);
+  chatEngineUser.setUsername('test');
+  console.log(chatEngineUser.username);
   // with maybe a little modification required this function can be called easily to
   // create a new chat and passing in dynamic credentials
   function createDirectChat(creds) {
@@ -29,9 +33,9 @@ export default function Messages() {
       <div>
         <input
           className="font-primary border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-          onChange={e => setUsername(e.target.value)}
+          onChange={e => othersetUsername(e.target.value)}
           placeholder="Find by username"
-          value={username}
+          value={otherusername}
         />
         <button
           className="font-title text-white text-lg mx-2 my-4"
@@ -50,7 +54,7 @@ export default function Messages() {
         height="80vh"
         projectID="f06a82ab-ee91-4d7d-9b6d-90b79d3392ca"
         renderNewChatForm={creds => renderChatForm(creds)}
-        userName="Bill"
+        userName={chatEngineUser.username}
         userSecret="123qwe"
       />
     </div>
