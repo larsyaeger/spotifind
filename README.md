@@ -13,7 +13,7 @@ API's used: Spotify API
 ## Screenshots
 
 # Landing Page
-            ![Spotifind landing page](https://github.com/larsyaeger/spotifind/blob/main/public/images/Screenshots/Screenshot%202023-04-06%20at%2008.38.09.png)
+![Spotifind landing page](https://github.com/larsyaeger/spotifind/blob/main/public/images/Screenshots/Screenshot%202023-04-06%20at%2008.38.09.png)
 
 ## Getting Started
 
