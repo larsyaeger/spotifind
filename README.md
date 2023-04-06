@@ -18,8 +18,11 @@ API's used: Spotify API
 
 ## Now Playing
 Volume slider for song previews, shows a now playing song if your linked spotify account is currently playing music. Shows lyrics, your account picture and name, and recent likes. Buttons to view comments made on that song and to view people currently listening to that track.
+
 ![Spotifind now playing page](https://github.com/larsyaeger/spotifind/blob/main/public/images/Screenshots/Screenshot%202023-04-06%20at%2008.39.11.png "Now playing page")
 
+### Comments page
+![Spotifind comments page](https://github.com/larsyaeger/spotifind/blob/main/public/images/Screenshots/Screenshot%202023-04-06%20at%2008.40.18.png "Comments page")
 ## Getting Started
 
 First, run the development server:
