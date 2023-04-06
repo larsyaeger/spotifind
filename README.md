@@ -10,9 +10,10 @@ API's used: Spotify API
             Leaflet
             
             
-## Screenshots
+# Screenshots
 
-# Landing Page
+## Landing Page
+            What you see when you first visit our app
 ![Spotifind landing page](https://github.com/larsyaeger/spotifind/blob/main/public/images/Screenshots/Screenshot%202023-04-06%20at%2008.38.09.png)
 
 ## Getting Started
