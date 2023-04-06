@@ -8,6 +8,7 @@ Built with NextJS, TailindCSS, and Prisma
 API's used: Spotify API
             ChatEngine
             Leaflet
+            Musixmatch API
             
             
 # Screenshots
@@ -16,6 +17,7 @@ API's used: Spotify API
 ![Spotifind landing page](https://github.com/larsyaeger/spotifind/blob/main/public/images/Screenshots/Screenshot%202023-04-06%20at%2008.38.09.png "Landing page")
 
 ## Now Playing
+Volume slider for song previews, shows a now playing song if your linked spotify account is currently playing music. Shows lyrics, your account picture and name, and recent likes. Buttons to view comments made on that song and to view people currently listening to that track.
 ![Spotifind now playing page](https://github.com/larsyaeger/spotifind/blob/main/public/images/Screenshots/Screenshot%202023-04-06%20at%2008.39.11.png "Now playing page")
 
 ## Getting Started
