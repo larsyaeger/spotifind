@@ -7,9 +7,9 @@ Built with [Kai](https://github.com/Likai-L) and [Justin](https://github.com/Cor
 
 Built with NextJS, TailindCSS, and Prisma
 
-API's used: Spotify API
-            ChatEngine
-            Leaflet
+API's used: Spotify API,
+            ChatEngine,
+            Leaflet,
             Musixmatch API
             
             
