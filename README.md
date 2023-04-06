@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+This apps purpose is to fix spotify's lack of social connection ability. With spotifind you can find new music, find users with similar
+music interests, share location with users, chat with users and more.
+
+Built with NextJS, TailindCSS, and Prisma
+
+API's used: Spotify API
+            ChatEngine
+            Leaflet
+            
+            
+## Screenshots
+            
+
 ## Getting Started
 
 First, run the development server:
