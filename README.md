@@ -32,7 +32,7 @@ Volume slider for song previews, shows a now playing song if your linked spotify
 ## Find users by song
 If any Spotifind user is currently listening to this track they'll appear here with their location (if they've accepted to share) and a button to message them.
 
-![Spotifind people function](https://github.com/larsyaeger/spotifind/blob/main/public/images/Screenshots/Screenshot%202023-04-06%20at%2008.42.25.png "Search for a song")
+![Spotifind people function](https://github.com/larsyaeger/spotifind/blob/main/public/images/Screenshots/Screenshot%202023-04-06%20at%2008.42.33.png "Search for a person")
 
 ## Chat page
 Powered by chat engine, able to start a chat by searching for users directly or if you find them based on a song you searched for/are listening to.
