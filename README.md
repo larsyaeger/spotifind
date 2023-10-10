@@ -38,7 +38,7 @@ If any Spotifind user is currently listening to this track they'll appear here w
 Powered by chat engine, able to start a chat by searching for users directly or if you find them based on a song you searched for/are listening to.
 Able to send media, start groupchats, and there's realtime typing ...'s
 
-![Spotifind chat page](https://github.com/larsyaeger/spotifind/blob/main/public/images/Screenshots/Screenshot%202023-04-06%20at%2008.42.33.png "People page")
+![Spotifind chat page](https://github.com/larsyaeger/spotifind/blob/main/public/images/Screenshots/Screenshot%202023-04-06%20at%2008.42.07.png "Chat page")
 ## Getting Started
 
 First, run the development server:
